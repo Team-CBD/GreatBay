@@ -5,7 +5,7 @@ var password;
 inquirer.prompt([
     {
         type: "password",
-        message: "Please enter your root password",
+        message: "Please enter your password",
         name: "password"
     }
 ]).then(function (answers) {
