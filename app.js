@@ -33,7 +33,7 @@ function postOrBidSelector() {
         {
             type: "list",
             name: "userOption",
-            message: "Please select from the follwoing:",
+            message: "Please select from the following:",
             choices: ["Post Item", "Place Bid"]
         }
     ]).then(function (answers) {
