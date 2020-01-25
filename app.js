@@ -17,7 +17,7 @@ inquirer.prompt([
         // Your username
         user: "root",
         // Your password
-        password: password,
+        password: coding26,
         database: "greatBay"
     });
     connection.connect(function (err) {
